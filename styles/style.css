@@ -18,8 +18,9 @@ a {
   color: #fff;
 }
 header {
-  min-height: 100%;
   padding-bottom: 100px;
+  position: relative;
+  max-width: 100%;
 }
 header h1 {
   padding-top: 15px;
@@ -75,7 +76,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 1920px;
   width: 100%;
   height: 80px;
   margin: 0 auto;
@@ -651,7 +652,7 @@ ul {
   }
 
   nav {
-    max-width: 600px;
+    min-width: 600px;
     margin-top: 15px;
   }
   .login {
@@ -678,11 +679,11 @@ ul {
 
 @media screen and (min-width: 768px) {
   header {
-    width: 768px;
+    max-width: 768px;
   }
 
   nav {
-    max-width: 768px;
+    min-width: 768px;
     margin-top: 15px;
   }
   h1 {
@@ -714,7 +715,7 @@ ul {
     margin-left: 120px;
   }
   nav {
-    max-width: 992px;
+    min-width: 992px;
   }
   .outside-div div {
     width: 300px;
@@ -730,7 +731,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   header {
-    width: 1200px;
+    max-width: 1200px;
   }
   .img1,
   .img2,
@@ -740,28 +741,28 @@ ul {
     display: block;
   }
   .img1 {
-    bottom: 270px;
+    bottom: 7px;
     left: 10%;
   }
   .img2 {
-    bottom: 260px;
+    bottom: 10px;
     right: 10%;
   }
   .img3 {
-    top: 55px;
+    top: 5px;
     left: 11%;
   }
 
   .img5 {
-    top: 80px;
-    right: 8%;
+    top: 90px;
+    right: -5%;
   }
   .img4 {
-    bottom: 290px;
-    left: 50%;
+    bottom: 20px;
+    left: 57%;
   }
   nav {
-    max-width: 1200px;
+    min-width: 1200px;
   }
   .outside-div div {
     width: 370px;
@@ -784,7 +785,8 @@ ul {
     margin-left: 160px;
   }
   nav {
-    max-width: 1512px;
+    min-width: 100%;
+    padding: 0 50px;
   }
   .outside-div {
     gap: 77px;
@@ -806,24 +808,24 @@ ul {
     display: block;
   }
   .img1 {
-    bottom: 270px;
-    left: 10%;
+    bottom: 70px;
+    left: 6%;
   }
   .img2 {
-    bottom: 260px;
-    right: 10%;
+    bottom: 40px;
+    right: 1%;
   }
   .img3 {
     top: 55px;
-    left: 11%;
+    left: 19%;
   }
 
   .img5 {
     top: 80px;
-    right: 8%;
+    right: -10%;
   }
   .img4 {
-    bottom: 290px;
-    left: 50%;
+    bottom: 20px;
+    left: 57%;
   }
 }
