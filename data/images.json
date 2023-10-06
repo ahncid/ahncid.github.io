@@ -1,0 +1,402 @@
+[
+  {
+    "id": 0,
+    "name": "Max",
+    "description": "Max is a friendly Labradoodle who loves to play fetch and go on long hikes.",
+    "age": 2,
+    "breed": "Labrador Retriever",
+    "interests": ["Fetching", "Hiking", "Eating"]
+  },
+  {
+    "id": 1,
+    "name": "Hansi",
+    "description": "Hansi is a joyful Golden Retriever who enjoys swimming and playing with other dogs at the park.",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "interests": ["Swimming", "Socializing", "Being daft"]
+  },
+  {
+    "id": 2,
+    "name": "Corin",
+    "description": "Corin is a playful Poodle mix who adores agility training and cuddling on the couch.",
+    "age": 1,
+    "breed": "Poodle mix",
+    "interests": ["Agility", "Cuddling", "Chasing balls"]
+  },
+  {
+    "id": 3,
+    "name": "Maxine",
+    "description": "Maxine is an energetic Border Collie who loves herding and going for runs in the park.",
+    "age": 4,
+    "breed": "Border Collie",
+    "interests": ["Herding", "Running", "Playing frisbee"]
+  },
+  {
+    "id": 4,
+    "name": "Buddy",
+    "description": "Friendly and playful",
+    "age": 2,
+    "breed": "Golden Retriever",
+    "interests": ["Fetch", "Swimming", "Digging holes"]
+  },
+  {
+    "id": 5,
+    "name": "Lola",
+    "description": "Loves belly rubs and long walks",
+    "age": 7,
+    "breed": "German Shepherd",
+    "interests": ["Hiking", "Playing Fetch", "Chasing squirrels"]
+  },
+  {
+    "id": 6,
+    "name": "Bella",
+    "description": "Energetic and fun-loving",
+    "age": 5,
+    "breed": "Poodle",
+    "interests": ["Running", "Agility", "Tug of war"]
+  },
+  {
+    "id": 7,
+    "name": "Rocky",
+    "description": "Loves the outdoors and chasing squirrels",
+    "age": 3,
+    "breed": "Border Collie",
+    "interests": ["Herding", "Playing Frisbee", "Exploring nature"]
+  },
+  {
+    "id": 8,
+    "name": "Teddy",
+    "description": "Sweet and cuddly",
+    "age": 6,
+    "breed": "Shih Tzu",
+    "interests": ["Napping", "Treats", "Watching birds"]
+  },
+  {
+    "id": 9,
+    "name": "Ruby",
+    "description": "Always up for a game of fetch",
+    "age": 4,
+    "breed": "Labrador Retriever",
+    "interests": ["Fetching", "Swimming", "Barking at the mailman"]
+  },
+  {
+    "id": 10,
+    "name": "Oscar",
+    "description": "Loyal and obedient",
+    "age": 8,
+    "breed": "Rottweiler",
+    "interests": ["Training", "Guarding", "Snoozing on the couch"]
+  },
+  {
+    "id": 11,
+    "name": "Lucy",
+    "description": "Loves belly rubs and cuddling on the couch",
+    "age": 5,
+    "breed": "Beagle",
+    "interests": ["Cuddling", "Sniffing", "Digging in the garden"]
+  },
+  {
+    "id": 12,
+    "name": "Charlie",
+    "description": "Playful and full of energy",
+    "age": 2,
+    "breed": "Dalmatian",
+    "interests": ["Running", "Playing Fetch", "Barking at the mailman"]
+  },
+  {
+    "id": 13,
+    "name": "Molly",
+    "description": "Enjoys long walks in the park",
+    "age": 6,
+    "breed": "Boxer",
+    "interests": ["Walking", "Playing", "Rolling in the grass"]
+  },
+  {
+    "id": 14,
+    "name": "Daisy",
+    "description": "Energetic and loves the water",
+    "age": 3,
+    "breed": "Labrador Retriever",
+    "interests": ["Swimming", "Fetching", "Chasing ducks"]
+  },
+  {
+    "id": 15,
+    "name": "Cooper",
+    "description": "Loves to play with toys and go on adventures",
+    "age": 4,
+    "breed": "Australian Shepherd",
+    "interests": ["Playing", "Hiking", "Singing along to music"]
+  },
+  {
+    "id": 16,
+    "name": "Lily",
+    "description": "Adorable and affectionate",
+    "age": 2,
+    "breed": "Cavalier King Charles Spaniel",
+    "interests": ["Cuddling", "Playing", "Chasing butterflies"]
+  },
+  {
+    "id": 17,
+    "name": "Bailey",
+    "description": "Friendly and outgoing",
+    "age": 5,
+    "breed": "Yorkshire Terrier",
+    "interests": ["Socializing", "Grooming", "Collecting shiny objects"]
+  },
+  {
+    "id": 18,
+    "name": "Max",
+    "description": "Eager to learn new tricks",
+    "age": 3,
+    "breed": "Border Terrier",
+    "interests": ["Training", "Agility", "Solving puzzles"]
+  },
+  {
+    "id": 19,
+    "name": "Sophie",
+    "description": "Sweet and gentle-natured",
+    "age": 8,
+    "breed": "Bichon Frise",
+    "interests": ["Grooming", "Snuggling", "Tea parties"]
+  },
+  {
+    "id": 20,
+    "name": "Rocky",
+    "description": "Loves to run and play fetch",
+    "age": 4,
+    "breed": "Siberian Husky",
+    "interests": ["Running", "Fetching", "Snowball fights"]
+  },
+  {
+    "id": 21,
+    "name": "Oliver",
+    "description": "Mischievous and playful",
+    "age": 2,
+    "breed": "Scottish Terrier",
+    "interests": ["Playtime", "Exploring", "Hunting for treats"]
+  },
+  {
+    "id": 22,
+    "name": "Mia",
+    "description": "Elegant and graceful",
+    "age": 6,
+    "breed": "Greyhound",
+    "interests": ["Running", "Relaxing", "Watching the sunset"]
+  },
+  {
+    "id": 23,
+    "name": "Leo",
+    "description": "Clever and curious",
+    "age": 1,
+    "breed": "Cocker Spaniel",
+    "interests": ["Learning", "Playing", "Exploring the backyard"]
+  },
+  {
+    "id": 24,
+    "name": "Zoe",
+    "description": "Loves to be pampered and spoiled",
+    "age": 7,
+    "breed": "Pomeranian",
+    "interests": ["Grooming", "Treats", "Modeling for photos"]
+  },
+  {
+    "id": 25,
+    "name": "Riley",
+    "description": "Energetic and always on the move",
+    "age": 3,
+    "breed": "Jack Russell Terrier",
+    "interests": ["Playing", "Running", "Digging for treasures"]
+  },
+  {
+    "id": 26,
+    "name": "Sasha",
+    "description": "Adventurous and loves the great outdoors",
+    "age": 5,
+    "breed": "Siberian Husky",
+    "interests": ["Hiking", "Exploring", "Howling at the moon"]
+  },
+  {
+    "id": 27,
+    "name": "Toby",
+    "description": "Loves to play with balls and go for long walks",
+    "age": 4,
+    "breed": "Miniature Schnauzer",
+    "interests": ["Playing", "Walking", "Chasing squirrels"]
+  },
+  {
+    "id": 28,
+    "name": "Lucy",
+    "description": "Always up for a game of fetch",
+    "age": 2,
+    "breed": "Golden Retriever",
+    "interests": ["Fetching", "Swimming", "Playing with the hose"]
+  },
+  {
+    "id": 29,
+    "name": "Milo",
+    "description": "Cheerful and loves to cuddle",
+    "age": 7,
+    "breed": "Dachshund",
+    "interests": ["Cuddling", "Exploring", "Digging in the sandbox"]
+  },
+  {
+    "id": 30,
+    "name": "Lola",
+    "description": "Energetic and fun-loving",
+    "age": 6,
+    "breed": "Labrador Retriever",
+    "interests": ["Running", "Playing Fetch", "Chasing tennis balls"]
+  },
+  {
+    "id": 31,
+    "name": "Charlie",
+    "description": "Loyal and affectionate",
+    "age": 5,
+    "breed": "Bulldog",
+    "interests": ["Loyalty", "Napping", "Being the family couch potato"]
+  },
+  {
+    "id": 32,
+    "name": "Molly",
+    "description": "Loves to play and make new friends",
+    "age": 4,
+    "breed": "Dalmatian",
+    "interests": ["Playtime", "Socializing", "Spotting spots"]
+  },
+  {
+    "id": 33,
+    "name": "Bentley",
+    "description": "Always happy and ready to go for a walk",
+    "age": 3,
+    "breed": "Shih Tzu",
+    "interests": ["Walking", "Treats", "Chasing his tail"]
+  },
+  {
+    "id": 34,
+    "name": "Zoe",
+    "description": "Loves to be pampered and spoiled",
+    "age": 8,
+    "breed": "Pomeranian",
+    "interests": ["Grooming", "Treats", "Being the queen of the castle"]
+  },
+  {
+    "id": 35,
+    "name": "Lulu",
+    "description": "Adventurous and curious",
+    "age": 1,
+    "breed": "Pug",
+    "interests": ["Exploring", "Playtime", "Snorting and wheezing"]
+  },
+  {
+    "id": 36,
+    "name": "Oscar",
+    "description": "Cheerful and always smiling",
+    "age": 6,
+    "breed": "Cavalier King Charles Spaniel",
+    "interests": ["Smiling", "Cuddling", "Playing dress-up"]
+  },
+  {
+    "id": 37,
+    "name": "Bailey",
+    "description": "Friendly and outgoing",
+    "age": 5,
+    "breed": "Boxer",
+    "interests": ["Socializing", "Playing", "Chasing her tail"]
+  },
+  {
+    "id": 38,
+    "name": "Bella",
+    "description": "Loves to cuddle and give kisses",
+    "age": 2,
+    "breed": "French Bulldog",
+    "interests": ["Cuddling", "Kissing", "Napping in the sun"]
+  },
+  {
+    "id": 39,
+    "name": "Rocky",
+    "description": "Energetic and playful",
+    "age": 4,
+    "breed": "Jack Russell Terrier",
+    "interests": ["Playing", "Running", "Digging for treasures"]
+  },
+  {
+    "id": 40,
+    "name": "Daisy",
+    "description": "Loves to run and play fetch",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "interests": ["Running", "Fetching", "Chasing butterflies"]
+  },
+  {
+    "id": 41,
+    "name": "Loki",
+    "description": "Mischievous and always up to something",
+    "age": 2,
+    "breed": "Siberian Husky",
+    "interests": ["Exploring", "Mischief", "Howling at the moon"]
+  },
+  {
+    "id": 42,
+    "name": "Lola",
+    "description": "Energetic and fun-loving",
+    "age": 6,
+    "breed": "Labrador Retriever",
+    "interests": ["Running", "Playing Fetch", "Chasing tennis balls"]
+  },
+  {
+    "id": 43,
+    "name": "Duke",
+    "description": "Loyal and protective",
+    "age": 4,
+    "breed": "German Shepherd",
+    "interests": ["Protecting", "Loyalty", "Playing catch"]
+  },
+  {
+    "id": 44,
+    "name": "Lily",
+    "description": "Adorable and affectionate",
+    "age": 2,
+    "breed": "Cavalier King Charles Spaniel",
+    "interests": ["Cuddling", "Playing", "Chasing butterflies"]
+  },
+  {
+    "id": 45,
+    "name": "Bailey",
+    "description": "Friendly and outgoing",
+    "age": 5,
+    "breed": "Yorkshire Terrier",
+    "interests": ["Socializing", "Grooming", "Collecting shiny objects"]
+  },
+  {
+    "id": 46,
+    "name": "Max",
+    "description": "Eager to learn new tricks",
+    "age": 3,
+    "breed": "Border Terrier",
+    "interests": ["Training", "Agility", "Solving puzzles"]
+  },
+  {
+    "id": 47,
+    "name": "Sophie",
+    "description": "Sweet and gentle-natured",
+    "age": 8,
+    "breed": "Bichon Frise",
+    "interests": ["Grooming", "Snuggling", "Tea parties"]
+  },
+  {
+    "id": 48,
+    "name": "Rocky",
+    "description": "Loves to run and play fetch",
+    "age": 4,
+    "breed": "Siberian Husky",
+    "interests": ["Running", "Fetching", "Snowball fights"]
+  },
+  {
+    "id": 49,
+    "name": "Oliver",
+    "description": "Mischievous and playful",
+    "age": 2,
+    "breed": "Scottish Terrier",
+    "interests": ["Playtime", "Exploring", "Hunting for treats"]
+  }
+]

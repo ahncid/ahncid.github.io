@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #fbf8f1;
+  margin-left: 20%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+}
+.navigation-logo {
+  max-width: 20%;
+}
+
+.navv-logo {
+  margin: 17px auto;
+}
+.nav-logo {
+  max-width: 180px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+  list-style-type: none;
+  margin: 60px 31px;
+}
+ul a {
+  color: rgb(120, 105, 105);
+}
+ul a:hover {
+  color: #f2f2f2;
+}
+ul a:nth-child(3) {
+  color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+.fa-heart-circle-exclamation,
+.fa-gear,
+.fa-diamond,
+.fa-heart-circle-check,
+.fa-right-from-bracket {
+  margin: 3px 9px 0 0;
+  font-size: 1.4rem;
+}
+
+#likedDogsOutput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  height: 100%;
+  width: 80%;
+}
+
+#likedDogsOutput img {
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+  position: relative;
+}
+.grid-list-container {
+  position: fixed;
+  right: 48px;
+  top: 58px;
+  z-index: 99;
+}
+.dog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+  border-bottom: 1.5px solid red;
+  padding: 10px;
+  width: 50%;
+}
+.dog-container h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.dog-interests {
+  font-size: 1.5rem;
+  background-color: rgb(241, 237, 229);
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.dog-description {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: rgb(241, 237, 229);
+  border-radius: 10px;
+}
+.removeDogBtn {
+  border: none;
+  background-color: rgb(226, 5, 5);
+  color: #f2f2f2;
+  padding: 5px;
+  font-size: 0.7rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#removeAll {
+  background-color: rgb(99, 5, 5);
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  color: #f2f2f2;
+  border-radius: 5px;
+  position: fixed;
+  right: 40px;
+  top: 15px;
+  z-index: 99;
+}
+#searchBar {
+  position: fixed;
+  left: 21%;
+  top: 10px;
+  z-index: 99;
+}
+
+@media screen and (max-width: 599px) {
+  .nav-logo {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+  }
+  ul {
+    gap: 57px;
+    margin: 30px 10px;
+  }
+  #likedDogsOutput img {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-logo {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+  }
+  ul {
+    gap: 57px;
+    margin: 30px 10px;
+  }
+  .dog-container {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-logo {
+    width: 150px;
+    height: 80px;
+  }
+  ul {
+    gap: 57px;
+    margin: 30px 30px;
+  }
+  .dog-container {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-logo {
+    width: 100%;
+    height: 80px;
+  }
+  ul {
+    gap: 57px;
+    margin: 30px 30px;
+  }
+  .dog-container {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-logo {
+    width: 100%;
+    height: 100px;
+  }
+  ul {
+    gap: 57px;
+    margin: 30px 30px;
+  }
+  .dog-container {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1512px) {
+  .nav-logo {
+    width: 100%;
+    height: 100px;
+  }
+  ul {
+    gap: 57px;
+    margin: 30px 30px;
+  }
+  .dog-container {
+    height: 100%;
+  }
+}

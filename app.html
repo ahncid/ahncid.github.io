@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>App</title>
+    <link rel="stylesheet" href="/styles/app.css" />
+    <script type="module" src="/js/main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation-bar">
+        <a class="navv-logo" href="/app.html">
+          <img class="nav-logo" src="/images/logo-no-background.png" alt="logo"
+        /></a>
+        <ul>
+          <a href="/settings.html"
+            ><li><i class="fa-solid fa-gear"></i>My profile</li></a
+          ><a href="/app.html"
+            ><li><i class="fa-solid fa-diamond"></i>Discover</li></a
+          ><a href="/matches.html"
+            ><li>
+              <i class="fa-solid fa-heart-circle-check"></i>My matches
+            </li></a
+          ><a href="/skips.html"
+            ><li>
+              <i class="fa-solid fa-heart-circle-exclamation"></i>Skipped dogs
+            </li></a
+          >
+          <a href="/index.html"
+            ><li><i class="fa-solid fa-right-from-bracket"></i>Log out</li></a
+          >
+        </ul>
+      </nav>
+
+      <div id="matchNotification" class="match-notification hidden">Match!</div>
+      <div class="image-container output" id="image-container"></div>
+    </header>
+  </body>
+</html>

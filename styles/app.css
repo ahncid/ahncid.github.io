@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  background-color: #fbf8f1;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #000;
+}
+.navigation-logo {
+  max-width: 20%;
+}
+
+.navv-logo {
+  margin: 17px auto;
+}
+.nav-logo {
+  max-width: 180px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+  list-style-type: none;
+  margin: 60px 31px;
+}
+ul a {
+  color: rgb(120, 105, 105);
+}
+ul a:hover {
+  color: #f2f2f2;
+}
+ul a:nth-child(2) {
+  color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+.fa-heart-circle-exclamation,
+.fa-gear,
+.fa-diamond,
+.fa-heart-circle-check,
+.fa-right-from-bracket {
+  margin: 3px 9px 0 0;
+  font-size: 1.4rem;
+}
+#image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 15px 0;
+}
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  width: 350px;
+  height: 480px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+  transition: opacity 0.5s;
+}
+
+.name-age-wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 13px;
+  width: 80%;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.template-absolute {
+  display: none;
+}
+.interests-container {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin: 7px 0;
+}
+.interest {
+  background-color: rgb(241, 237, 229);
+  text-align: center;
+  width: fit-content;
+  padding: 5px 25px;
+  border-radius: 15px;
+}
+.dog-description {
+  background-color: #fff;
+  padding: 10px 25px;
+  width: fit-content;
+  border-radius: 15px;
+  margin: 7px 0;
+}
+.dislike-like {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: fit-content;
+  padding: 7px 0;
+  width: 350px;
+}
+.fa-x,
+.fa-heart {
+  background-color: #000;
+  font-size: 1.4rem;
+  padding: 10px 12px;
+  border-radius: 7px;
+  width: 35px;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.fa-x {
+  color: rgb(66, 147, 66);
+}
+.fa-heart {
+  padding: 10px;
+  color: rgb(126, 13, 85);
+}
+.skip {
+  color: rgb(17, 17, 144);
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 7px;
+  width: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease-in-out;
+}
+.fa-x:active,
+.fa-heart:active,
+.skip:active {
+  transform: scale(1.2);
+}
+.animate-image {
+  animation: pulse 0.5s ease-in-out forwards;
+}
+
+.animate-button {
+  animation: scalePulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scalePulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.hidden {
+  display: none;
+}
+
+.match-notification {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  opacity: 0;
+  display: none;
+}
+
+.showNotification {
+  opacity: 1;
+  display: block;
+}
+@media screen and (max-width: 599px) {
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1512px) {
+}

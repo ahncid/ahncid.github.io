@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skipped Dogs</title>
+    <script type="module" src="/js/skippeddogs.js"></script>
+    <script src="/js/remove-all-handler.js" defer></script>
+    <link rel="stylesheet" href="/styles/skips.css" />
+    <script type="module" src="/js/grid-list.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation-bar">
+        <a class="navv-logo" href="/app.html"
+          ><img
+            class="nav-logo"
+            src="/images/logo-no-background.png"
+            alt="logo"
+        /></a>
+        <ul>
+          <a href="/settings.html"
+            ><li><i class="fa-solid fa-gear"></i>My profile</li></a
+          ><a href="/app.html"
+            ><li><i class="fa-solid fa-diamond"></i>Discover</li></a
+          ><a href="/matches.html"
+            ><li>
+              <i class="fa-solid fa-heart-circle-check"></i>My matches
+            </li></a
+          ><a href="/skips.html"
+            ><li>
+              <i class="fa-solid fa-heart-circle-exclamation"></i>Skipped dogs
+            </li></a
+          >
+          <a href="/index.html"
+            ><li><i class="fa-solid fa-right-from-bracket"></i>Log out</li></a
+          >
+        </ul>
+      </nav>
+      <div id="searchBar">
+        <input type="text" id="searchInput" placeholder="Search dogs..." />
+      </div>
+      <div id="searchResults"></div>
+      <div class="grid-list-container">
+        <button
+          aria-label="Display as Grid"
+          class="view-toggle1"
+          data-view="grid"
+        >
+          <i class="fa-solid fa-border-all"></i>
+        </button>
+        <button
+          aria-label="Display as List"
+          class="view-toggle2"
+          data-view="list"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <a href="" id="removeAll">Remove all</a>
+      <div id="skippedDogsOutput"></div>
+    </header>
+  </body>
+</html>
