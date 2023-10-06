@@ -17,6 +17,7 @@ header {
   justify-content: center;
   max-width: 100%;
   background-color: #fbf8f1;
+  min-height: 100vh;
 }
 nav {
   display: flex;
@@ -219,6 +220,7 @@ a {
   border-radius: 5px;
   opacity: 0;
   display: none;
+  z-index: 99;
 }
 
 .showNotification {

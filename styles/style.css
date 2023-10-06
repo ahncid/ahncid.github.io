@@ -18,9 +18,11 @@ a {
   color: #fff;
 }
 header {
+  display: flex;
   padding-bottom: 100px;
   position: relative;
   max-width: 100%;
+  justify-content: center;
 }
 header h1 {
   padding-top: 15px;
@@ -103,9 +105,8 @@ nav ul li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
-  margin: 0 auto;
   padding-top: 50px;
 }
 .left-login {
@@ -733,6 +734,7 @@ ul {
   header {
     max-width: 1200px;
   }
+
   .img1,
   .img2,
   .img3,
@@ -750,7 +752,7 @@ ul {
   }
   .img3 {
     top: 5px;
-    left: 11%;
+    left: 7%;
   }
 
   .img5 {
@@ -777,12 +779,12 @@ ul {
 
 @media screen and (min-width: 1512px) {
   header {
-    max-width: 1512px;
+    max-width: 100%;
   }
 
   .login {
-    width: 100%;
-    margin-left: 160px;
+    width: 110%;
+    padding-right: 450px;
   }
   nav {
     min-width: 100%;
@@ -817,12 +819,12 @@ ul {
   }
   .img3 {
     top: 55px;
-    left: 19%;
+    left: 13%;
   }
 
   .img5 {
     top: 80px;
-    right: -10%;
+    right: 1%;
   }
   .img4 {
     bottom: 20px;
