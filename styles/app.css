@@ -28,7 +28,6 @@ nav {
 .navigation-logo {
   max-width: 20%;
 }
-
 .navv-logo {
   margin: 17px auto;
 }
@@ -228,6 +227,27 @@ a {
   display: block;
 }
 @media screen and (max-width: 599px) {
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 45px;
+  }
+  ul {
+    flex-direction: row;
+    gap: 17px;
+    margin: 20px 31px;
+  }
+  .navv-logo {
+    margin: 17px auto;
+  }
+  .nav-logo {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 600px) {
